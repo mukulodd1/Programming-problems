@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+        int temp;
+        cin>>temp;
+       long int x=temp/2;
+        if(x*2==temp)
+            cout<<x*x<<endl;
+        else
+            cout<<x*(x+1)<<endl;
+    }
+}
