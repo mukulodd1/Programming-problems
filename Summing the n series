@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+/*
+ * Complete the summingSeries function below.
+ */   
+
+
+int main()
+{
+    int t;
+    //t is number of test cases
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+        long int n;
+        cin>>n;
+        n = n%(1000000000+7);
+        cout<<n*n%(1000000000+7)<<endl;
+    }
+}
