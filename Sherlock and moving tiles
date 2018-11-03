@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int l,s1,s2;
+    cin>>l>>s1>>s2;
+    double dig = sqrt(2)*l;
+    double speed = abs(s2-s1);
+    int t;
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+        long  int q;
+        cin>>q;
+        printf("%.20f\n",sqrt(2)*(l-sqrt(q))/abs(s2-s1));
+    }
+}
