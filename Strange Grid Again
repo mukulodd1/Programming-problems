@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+long int r,c,pos=0,ans;
+cin>>r>>c;
+if( r/2*2 == r)
+pos=1;
+if(r/2*2==r)
+r=r/2;
+else
+r = r/2+1;
+ans = pos +(r-1)*10;
+ans= ans + (c-1)*2;
+cout<<ans;
+}
